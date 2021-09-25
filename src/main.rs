@@ -527,7 +527,7 @@ fn main() -> Result<()> {
     let response_ip = Ipv4Addr::new(10, 5, 1, 3);
 
     // Bind a UDP socket
-    let socket = UdpSocket::bind("10.5.1.6:53")?;
+    let socket = UdpSocket::bind("127.0.0.1:53")?;
 
 
     loop {
